@@ -4,9 +4,20 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: lightgray;
+  color: black;
   margin: 0;
 }
 
 .container {
   text-align: center;
+}
+
+.dark-mode {
+  background-color: darkgray;
+  color: white;
+}
+
+.light-mode {
+  background-color: lightgray;
+  color: black;
 }
