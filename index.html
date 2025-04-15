@@ -6,17 +6,24 @@
     <title>Jonas Blog</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            font-family: sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-height: 100vh;
+          margin: 0;
+          background-color: #f0f0f0;
+          font-family: sans-serif;
+        }
+    
+        header {
+          width: 100%;
+          padding: 20px;
+          text-align: center;
         }
         .container {
             text-align: center;
         }
+        
     </style>
 </head>
 <body>
@@ -24,5 +31,31 @@
         <h1>Welcome to Jonas Blog</h1>
         <a href="blog1.html">Blog 1</a>
     </div>
+    <header>
+        <button id="theme-toggle">Dark Mode</button>        
+      </header>
+      <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+    
+        themeToggle.addEventListener('click', () => {
+          if (body.classList.contains('dark-mode')) {
+            body.classList.remove('dark-mode');
+            body.classList.add('light-mode');
+            themeToggle.textContent = 'Dark Mode';
+          } else if (body.classList.contains('light-mode')) {
+            body.classList.remove('light-mode');
+            body.classList.add('dark-mode');
+            themeToggle.textContent = 'Light Mode';
+          } else {
+            body.classList.add('light-mode'); // Default to light mode if no class is present
+          }
+        });
+    
+        // Initialize with light mode by default
+        if (body.className === '') {
+          body.classList.add('light-mode');
+        }
+      </script>
 </body>
 </html>
