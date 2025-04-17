@@ -1,23 +1,16 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
-  background-color: lightgray;
-  color: black;
+  background-color: #333; /* Dark gray background */
+  color: white; /* White text */
   margin: 0;
 }
 
 .container {
   text-align: center;
-}
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  background-color: #444; /* Slightly lighter gray for container */
 
-.dark-mode {
-  background-color: darkgray;
-  color: white;
-}
-
-.light-mode {
-  background-color: lightgray;
-  color: black;
 }
