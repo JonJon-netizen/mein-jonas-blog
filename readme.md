@@ -1,4 +1,4 @@
-# Jonas Blog (Deutsches README)
+# Jonas Blog (README)
 
 Willkommen zu Jonas Blog!
 
