@@ -1,42 +1,39 @@
-# Jonas Blog
+# Jonas Blog (Deutsches README)
 
-Welcome to Jonas Blog! This is a simple blog website designed to be hosted on GitHub Pages.
+Willkommen zu Jonas Blog!
 
-## How to Use
+Dies ist ein einfaches Blog-Projekt, das für das Hosting auf GitHub Pages entwickelt wurde. Es ermöglicht Benutzern, ihre eigenen Blogbeiträge zu erstellen und zu verwalten, indem sie einfache HTML-Dateien verwenden.
 
-1.  **Create Blog Files:**
-    *   For each blog post you want to create, you need to create a separate HTML file (e.g., `blog1.html`, `blog2.html`, `my-travels.html`, etc.).
-    *   These files should contain the content of your blog posts.
-    *   Make sure to use proper HTML structure in each of your blog files.
+## Über das Projekt
 
-2.  **Link Blogs in `index.html`:**
-    *   Open the `index.html` file.
-    *   Add a link to each of your blog files. This is how you will navigate from the main page to your blog posts.
-    *   Each link should be in the format:
-```
-html
-    <a href="blog1.html">My First Blog Post</a>
-    
-```
-Replace `blog1.html` with the actual filename of your blog post, and "My First Blog Post" with the title of your blog.
+**JonasBlog** ist ein Projekt, das dir ermöglicht, schnell und unkompliziert einen eigenen Blog zu erstellen und online zu stellen. Es ist ideal für alle, die nach einer einfachen Lösung suchen, um ihre Gedanken, Erfahrungen oder ihr Wissen mit der Welt zu teilen.
 
-3.  **Place Files in the `JONASBLOG` Folder:**
-    *   Make sure that all your HTML files (`index.html`, `blog1.html`, `blog2.html`, etc.) are in the `JONASBLOG` folder.
-    * The CSS file has to be in the same folder as well.
-    * When you add a new blog, the blog file needs to be created in this folder.
+## So funktioniert’s
 
-## Example
+1. **Blog-Dateien erstellen:**
+   - Für jeden Blogeintrag, den du erstellen möchtest, musst du eine eigene HTML-Datei anlegen (z. B. `blog1.html`, `blog2.html`, `meine-reisen.html` usw.).
+   - Diese Dateien enthalten den jeweiligen Inhalt deiner Blogbeiträge.
+   - Achte darauf, in jeder Datei eine saubere HTML-Struktur zu verwenden.
 
-If you create a blog post called `my-trip-to-italy.html`, you would add the following to your `index.html`:
-```
-html
-<a href="my-trip-to-italy.html">My Trip to Italy</a>
-```
-## Getting Started
+2. **Blogs in `index.html` verlinken:**
+   - Öffne die Datei `index.html`.
+   - Füge für jeden Blogeintrag einen Link zur jeweiligen HTML-Datei hinzu. So gelangt man von der Startseite zu den Blogposts.
+   - Jeder Link sollte in folgendem Format stehen:
 
-1.  Start by creating your first blog post file (e.g., `blog1.html`).
-2.  Write your blog content in that file.
-3.  Add a link to that file in `index.html`.
-4.  Repeat for each new blog post.
+     ```html
+     <a href="blog1.html">Mein erster Blogbeitrag</a>
+     ```
 
-Have fun blogging!
+     Ersetze `blog1.html` mit dem tatsächlichen Dateinamen und „Mein erster Blogbeitrag“ mit dem Titel deines Beitrags.
+
+3. **Dateien im `JONASBLOG`-Ordner ablegen:**
+   - Alle HTML-Dateien (`index.html`, `blog1.html`, `blog2.html` usw.) müssen im Ordner `JONASBLOG` gespeichert werden.
+   - Auch die CSS-Datei muss im gleichen Ordner liegen.
+   - Wenn du einen neuen Blogbeitrag hinzufügst, erstelle die entsprechende Datei ebenfalls in diesem Ordner.
+
+## Beispiel
+
+Wenn du einen Blogpost namens `mein-italien-trip.html` erstellst, dann fügst du Folgendes zu deiner `index.html` hinzu:
+
+```html
+<a href="mein-italien-trip.html">Mein Italien-Trip</a>
